@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F492A77-7719-4DD9-80BF-66E77E18C06B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>millionaire</RootNamespace>
+    <AssemblyName>millionaire</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CircularProgressBar, Version=2.5.6298.4486, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.5.6298.4486\lib\net35-client\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation, Version=1.5.6298.3372, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.5.6298.3372\lib\net35-client\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2w3ny9s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgrd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="readme.txt" />
+    <None Include="Resources\scores1.wav" />
+    <None Include="Resources\first2.jpg" />
+    <None Include="Resources\first.png" />
+    <None Include="Resources\backgrd.png" />
+    <None Include="Resources\x.png" />
+    <None Include="Resources\check.png" />
+    <None Include="Resources\ba-awesome-colorful-fireworks-animated-gif-image-s.gif" />
+    <None Include="Resources\Δ3.wav" />
+    <None Include="Resources\Δ2.wav" />
+    <None Include="Resources\Δ1.wav" />
+    <None Include="Resources\Γ3.wav" />
+    <None Include="Resources\Γ2.wav" />
+    <None Include="Resources\Γ1.wav" />
+    <None Include="Resources\Β3.wav" />
+    <None Include="Resources\Β2.wav" />
+    <None Include="Resources\Β1.wav" />
+    <None Include="Resources\Α3.wav" />
+    <None Include="Resources\Α2.wav" />
+    <None Include="Resources\A1.wav" />
+    <None Include="Resources\chart-D.wav" />
+    <None Include="Resources\chart-C.wav" />
+    <None Include="Resources\chart-B.wav" />
+    <None Include="Resources\chart-A.wav" />
+    <None Include="Resources\menu.jpg" />
+    <None Include="Resources\level_3.wav" />
+    <None Include="Resources\level_2.wav" />
+    <None Include="Resources\level_1.wav" />
+    <None Include="Resources\scores4.wav" />
+    <None Include="Resources\scores3.wav" />
+    <None Include="Resources\scores2.wav" />
+    <None Include="Resources\firstimage.png.jpg" />
+    <None Include="Resources\firstimage.png" />
+    <None Include="Resources\questions-level-first.txt" />
+    <None Include="Resources\ekatommyriouxos.wav" />
+    <None Include="Resources\penhnta-penhnta.wav" />
+    <None Include="Resources\wrong_answer_nomoney.wav" />
+    <None Include="Resources\wrong_answer_after_endgame.wav" />
+    <None Include="Resources\wrong_answer.wav" />
+    <None Include="Resources\transition_after_lvl3.wav" />
+    <None Include="Resources\transition_after_lvl2.wav" />
+    <None Include="Resources\Telephone_joker_start.wav" />
+    <None Include="Resources\Telephone_joker_loop.wav" />
+    <None Include="Resources\Telephone_joker_end.wav" />
+    <None Include="Resources\Telephone_joker_call.wav" />
+    <None Include="Resources\rules.wav" />
+    <None Include="Resources\outro.wav" />
+    <None Include="Resources\logged_in_start.wav" />
+    <None Include="Resources\logged_in_loop.wav" />
+    <None Include="Resources\level_3_lastquestion.wav" />
+    <None Include="Resources\joker_3.wav" />
+    <None Include="Resources\joker_2.wav" />
+    <None Include="Resources\joker_1.wav" />
+    <None Include="Resources\intro.wav" />
+    <None Include="Resources\end_no_money.wav" />
+    <None Include="Resources\end_long.wav" />
+    <None Include="Resources\end_candidate leaves.wav" />
+    <None Include="Resources\end.wav" />
+    <None Include="Resources\correct_answer_win1million.wav" />
+    <None Include="Resources\correct_answer_3_lastquestion.wav" />
+    <None Include="Resources\correct_answer 3.wav" />
+    <None Include="Resources\correct_answer 2.wav" />
+    <None Include="Resources\correct_answer 1.wav" />
+    <None Include="Resources\candidate_selection_start.wav" />
+    <None Include="Resources\candidate_selection_solution.wav" />
+    <None Include="Resources\candidate_selection_results.wav" />
+    <None Include="Resources\candidate_selection_loop.wav" />
+    <None Include="Resources\candidate_selection_answerD.wav" />
+    <None Include="Resources\candidate_selection_answerC.wav" />
+    <None Include="Resources\candidate_selection_answerB.wav" />
+    <None Include="Resources\candidate_selection_answerA.wav" />
+    <None Include="Resources\candidate_selection_2.wav" />
+    <None Include="Resources\candidate_selection_1.wav" />
+    <None Include="Resources\audience_joker_start.wav" />
+    <None Include="Resources\audience_joker_loop.wav" />
+    <None Include="Resources\audience_joker_end.wav" />
+    <None Include="Resources\50_50.wav" />
+    <None Include="Resources\4th_joker.wav" />
+    <None Include="Resources\mill.jpg" />
+    <None Include="Resources\nice.png" />
+    <None Include="Resources\Millionaireback.jpg" />
+    <None Include="Resources\questions lvl3.txt" />
+    <None Include="Resources\questions lvl2.txt" />
+    <None Include="Resources\answers-level-first.txt" />
+    <None Include="Resources\answers lvl3.txt" />
+    <None Include="Resources\answers lvl2.txt" />
+    <None Include="Resources\x-phone.png" />
+    <None Include="Resources\x-audience.png" />
+    <None Include="Resources\x-50x50.png" />
+    <None Include="Resources\who_wants_to_be_a_millionaire.jpg" />
+    <None Include="Resources\table.png" />
+    <None Include="Resources\phone.png" />
+    <None Include="Resources\million.png" />
+    <None Include="Resources\maxresdefault.jpg" />
+    <None Include="Resources\lab.png" />
+    <None Include="Resources\base.png" />
+    <None Include="Resources\background.jpg" />
+    <None Include="Resources\audience.png" />
+    <None Include="Resources\500000.png" />
+    <None Include="Resources\250000.png" />
+    <None Include="Resources\125000.png" />
+    <None Include="Resources\64000.png" />
+    <None Include="Resources\32000.png" />
+    <None Include="Resources\16000.png" />
+    <None Include="Resources\8000.png" />
+    <None Include="Resources\4000.png" />
+    <None Include="Resources\2000.png" />
+    <None Include="Resources\1000.png" />
+    <None Include="Resources\500.png" />
+    <None Include="Resources\300.png" />
+    <None Include="Resources\200.png" />
+    <None Include="Resources\100.png" />
+    <None Include="Resources\50x50.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

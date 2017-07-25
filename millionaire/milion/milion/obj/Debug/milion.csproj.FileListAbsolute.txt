@@ -1,0 +1,26 @@
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\bin\Debug\milion.exe.config
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\bin\Debug\milion.exe
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\bin\Debug\milion.pdb
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\obj\Debug\milion.csprojResolveAssemblyReference.cache
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\obj\Debug\milion.Form1.resources
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\obj\Debug\milion.Properties.Resources.resources
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\obj\Debug\milion.csproj.GenerateResource.Cache
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\obj\Debug\milion.exe
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\obj\Debug\milion.pdb
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\bin\Debug\CircularProgressBar.dll
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\bin\Debug\CircularProgressBar.xml
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\bin\Debug\WinFormAnimation.dll
+C:\Users\nikos\Documents\Visual Studio 2017\Projects\milion\milion\bin\Debug\WinFormAnimation.xml
+G:\διαθεματικη\millionaire\milion\milion\bin\Debug\CircularProgressBar.dll
+G:\διαθεματικη\millionaire\milion\milion\bin\Debug\WinFormAnimation.dll
+G:\διαθεματικη\millionaire\milion\milion\bin\Debug\CircularProgressBar.xml
+G:\διαθεματικη\millionaire\milion\milion\bin\Debug\WinFormAnimation.xml
+G:\διαθεματικη\millionaire\milion\milion\obj\Debug\milion.csprojResolveAssemblyReference.cache
+G:\διαθεματικη\millionaire\milion\milion\obj\Debug\milion.csproj.GenerateResource.Cache
+G:\διαθεματικη\millionaire\milion\milion\obj\Debug\milion.Form1.resources
+G:\διαθεματικη\millionaire\milion\milion\bin\Debug\millionaire.exe.config
+G:\διαθεματικη\millionaire\milion\milion\bin\Debug\millionaire.exe
+G:\διαθεματικη\millionaire\milion\milion\bin\Debug\millionaire.pdb
+G:\διαθεματικη\millionaire\milion\milion\obj\Debug\millionaire.Properties.Resources.resources
+G:\διαθεματικη\millionaire\milion\milion\obj\Debug\millionaire.exe
+G:\διαθεματικη\millionaire\milion\milion\obj\Debug\millionaire.pdb
